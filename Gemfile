@@ -9,10 +9,6 @@ group :production do
 gem 'pg'
 end
 
-group :development, :test do
-gem 'activerecord-jdbcsqlite3-adapter'
-end
-
 
 gem 'sass-rails', '~> 4.0.0'
 
